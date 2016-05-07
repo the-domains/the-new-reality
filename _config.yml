@@ -1,28 +1,40 @@
-name: the new reality
 favicon: null
-layout_spectrum: 0.5956513697747141
-typography_spectrum: 0.5664772854652256
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: the new reality
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7222550532314926
+  brandStrength: 0.5690169599838555
+  rhythmicContrast: 0.2030885184649378
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.5690169599838555
   lightness: 0.5053637863602489
-  saturation: 0.7222550532314926
-  rhythmicContrast: 0.2030885184649378
-purpose: []
+typography_spectrum: 0.5664772854652256
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.5956157
+analytics:
+  twitter: null
+  google: null
+  facebook: null
